@@ -1,0 +1,135 @@
+    <html>
+        <head>
+            <title>Assignement 3</title>
+        </head>
+        <body>
+            <form action="submited.html" method="get">
+                <fieldset>
+                <legend>Information</legend>  
+                <div>
+                    <label>Full name</label>
+                    <input type="text" name="fullname" id="fn" placeholder="firstname Lastname" pattern="[a-z]">
+                
+                </div>
+                <div>
+                    <label>About yourself</label>
+                    <div>
+                        <textarea cols="25" rows="2"></textarea>
+                    </div>      
+                </div>
+                <div>
+                    <label>email</label>
+                    <input type="email" name="email" id="email" required>
+
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" name="password" id="password" maxlength="8">
+                </div>
+                <div>
+                    <label>phone number</label>
+                    <input type="tel" id="tel" name="telephone" maxlength="10" >
+                </div>
+                <div>
+                    <label>website</label>
+                    <input type="url" name="website" id="website">
+                </div>
+                <fieldset>
+                    <legend>Skills & Preferences</legend>
+                    <div>
+                                <label>skills</label>
+                                <div>
+                                    <label>Html</label>
+                                    <input type="checkbox" name="skill" >
+                                    <label>Css</label>
+                                    <input type="checkbox" name="skill" >
+                                    <label>Js</label>
+                                    <input type="checkbox" name="skill" >
+                                    
+                                </div>
+                        </div> 
+                    
+                        <div>
+                            <label for="gender">gender</label>
+                            <div>
+                                <label>Male</label>
+                                <input type="radio" name="gender" id="Male">
+                                <label>Female</label>
+                                <input type="radio" name="gender" id="Female">
+                            </div>
+                        
+                            <div>
+                                <label>Preferred color</label>
+                                <input type="color" name="color" value="#1fce1c">
+                            </div>
+
+                            <div>
+                                <Label>Experince Level</Label>
+                                <input type="range" max="20" min="0" slot="2">
+                            </div>
+                            <div>
+                                <label>Search Interest</label>
+                                <input type="search" name="search" id="search">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Date & Time Inputs</legend>
+                            <div>
+                                <label>Date of Birth</label>
+                                <input type="date" name="dateofbirth" max="2005-12-31">
+
+                            </div>
+                            <div>
+                                <label>Available Time</label>
+                                <input type="time" name="time" id="time" min="9:00 " max="18:30">
+                            </div>
+                            <div>
+                                <label>Joining Month</label>
+                                <input type="date" name="Joining Month" min="2026-01-01" max="2026-01-31" value="2026-01-09">
+                            </div>    
+                            <div>
+                            <label>Training Week</label>
+                            <input type="week" name="week"  value="2026-W07" disabled >
+                            </div>
+                            <div>
+                                <label>Interview Slot</label>
+                                <input type="time" name="time slot" >
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Selection & Upload</legend>
+                            <div>
+                                <label>Technology</label>
+                                <div>
+                                    <label>Java</label>
+                                    <input type="checkbox" name="skills" >
+                                    <label>Angular</label>
+                                    <input type="checkbox" name="skills" >
+                                    <label>.Net</label>
+                                    <input type="checkbox" name="skills" >
+                                    <label>ReactJs</label>
+                                    <input type="checkbox" name="skills" >
+                                    <label>QA</label>
+                                    <input type="checkbox" name="skills" >
+                                </div>
+                        </div> 
+                        <div>
+                            <label>Resume Upload</label>
+                            <input type="file" name="Resume Upload" accept=".pdf"> 
+                        </div>
+                    </fieldset>    
+                    <div>
+                        <input type="hidden" name="userId" value="U12345">
+                    </div>
+                    <div>
+                    <input type="submit" value="Submit">
+
+                    <input type="reset" value="Reset">
+                    </div>
+                    <input type="button" value="Click Me">
+
+                
+                </fieldset>
+            </form>
+        </body>
+    </html>
