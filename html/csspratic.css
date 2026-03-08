@@ -1,0 +1,23 @@
+.box1{
+    color: rgba(255, 0, 0, 0.132);
+    background-color: rgba(255, 0, 0, 0.13);
+    height: 200px;
+    width: 200;
+    position: static;
+}
+.box2{
+    color: greenyellow;
+    background-color: rgba(255, 13, 0, 0.59);
+    height: 200px;
+    width: 200;
+    
+}
+
+.box3{
+    color: greenyellow;
+    background-color: rgba(128, 0, 255, 0.796);
+    height: 200px;
+    width: 220;  
+    transform: rotate(20deg);
+    transform: scale(700px,400px);
+}
