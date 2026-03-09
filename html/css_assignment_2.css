@@ -48,6 +48,6 @@
     z-index: 1;
 }
 body{
-   background:linear-gradient(to right, rgba(0, 162, 255, 0.327) ,rgba(255, 0, 0, 0.24),rgba(220, 28, 60, 0.519));
+   background:linear-gradient(to right, rgba(255, 0, 0, 0.327) ,rgba(0, 255, 200, 0.24),rgba(220, 28, 60, 0.519));
 }
 

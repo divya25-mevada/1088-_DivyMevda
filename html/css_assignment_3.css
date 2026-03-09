@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(205, 189, 168);
+}
+
+.f1::first-letter{
+    font-size: xx-large;
+    font-weight: bold;
+    color: red;
+}
+.breaking::first-line{
+    font-weight: bold;
+    background-color: rgb(224, 69, 69);
+}
+.note::before{
+    content:"Note:";
+    color: red;
+}
+.allrights::after{
+    content: " 2026";
+}
+li:nth-child(odd){
+    background-color: rgb(144, 164, 124);
+}
+li:nth-child(even){
+    background-color: rgb(194, 72, 72);
+}
+
+li:nth-child(2){
+    font-weight: bold;
+}
+li:last-child{
+    background-color: rgb(50, 105, 117);
+}
+li:first-child{
+    color: red;
+}
+
+a{
+    color: red;
+}
+
+a[href^="form"]{
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+}
+img[src$=".jpg"]{
+    border: 5px solid black;
+}
+input[placeholder*="Enter"]{
+    background-color: lightyellow;
+    border-color: black;
+}
+
+.section p{
+    color:  rgb(246, 7, 19);
+    font-variant: small-caps;
+}
+
+.section >p{
+    color: blueviolet;
+}
+.Immediate h1+p{
+    color: rgb(0, 55, 13);
+}
+
+h2~p{
+    font-style: italic;
+}
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+    background-color: rgb(255, 224, 224);
+}
+input[type="checkbox"]:checked + label{
+    color: blue;
+    font-weight: bold;
+}
