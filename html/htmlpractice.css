@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    height: 120vh;
+    display:flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center; 
+    background-color:aliceblue ; 
+}
+
+form{
+    background-color:antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 500px;
+    padding:auto;
+    border: 2px solid black;
+}
+
+legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    border: 2px solid black;
+    color: red;
+    font-weight: 500;
+    margin-block-start:  10px;;
+}
+
+.information{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(8, 0, 255);  
+    border: 2px solid  red; 
+}
+.information input{
+    background-color: rgba(250, 1, 242, 0.11);
+    width: ;
+}

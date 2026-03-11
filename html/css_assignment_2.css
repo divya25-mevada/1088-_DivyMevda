@@ -14,7 +14,7 @@
     top: 200px;
     left: 320px; ;
     transform:rotate(90deg);
-    z-index: 10;
+    z-index:10;
 }
 .box3{
     background-color: rgb(224, 231, 14);
@@ -45,7 +45,7 @@
     width: 2cm;
     position:relative;
     left: 350px;
-    z-index: 1;
+    z-index: 100;
 }
 body{
    background:linear-gradient(to right, rgba(255, 0, 0, 0.327) ,rgba(0, 255, 200, 0.24),rgba(220, 28, 60, 0.519));

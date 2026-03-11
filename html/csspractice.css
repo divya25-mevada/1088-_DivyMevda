@@ -1,0 +1,21 @@
+.box1{
+    color: rgb(255, 0, 0);
+    margin-bottom: 100px;
+    padding-left: 100px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.13);
+    height: 200px;
+    width: 200;
+    position: absolute;
+    /* z-index: 10; */
+}
+.box2{
+    color: greenyellow;
+    background-color: rgba(0, 255, 110, 0.59);
+    margin-top   : 200px;
+    height: 200px;
+    width: 200;
+    position: absolute;
+    /* z-index: 1; */
+    
+}
