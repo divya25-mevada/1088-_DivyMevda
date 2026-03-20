@@ -119,10 +119,112 @@
 // }
 
 
-const person={
-    firstname:'suresh',
-    lastname:'patel',
-    age:20,
-    hobbies:['cricket','basketball']
+// const person={
+//     firstname:'suresh',
+//     lastname:'patel',
+//     age:20,
+//     hobbies:['cricket','basketball']
+// }
+
+// const obj={
+//     name:'arjun',
+//     age:12
+
+// }
+// const obj2={
+//     name:'arjun',
+
+// }
+
+// i want add in department it so i addd use ing obj.department='it'
+// sperad operator use combine two object
+
+// const obj3={...obj,...obj2}
+// console.log(obj3);
+
+// const obj={
+//     name:'arjun',
+//     age:12
+
+// }
+// const obj2={
+//     name:'arjun12',
+// here arjun12 print bcz key same but value take from obj2
+// }
+
+
+// console.log(a);
+// let a=10
+
+// Rest and sperad operator           
+
+// const obj={
+//     name:'arjun',
+//     age:12
+
+// }
+// const obj2={
+//     name:'arjun',
+
+// }
+
+
+// const obj4=obj
+// console.log(obj4);
+
+// const obj5={...obj}
+// console.log(obj5);
+
+
+// obj4.age=15
+// obj5.age=20
+
+// console.log(obj4);
+// console.log(obj);
+
+// console.log(obj5);
+
+// console.log(obj);
+
+
+// const obj4=obj
+// console.log(obj4);
+
+// const obj5={...obj}
+// console.log(obj5);
+
+// const a=[1,2]
+// a.push('3')
+// a.pop()
+// a.pop()
+
+// let aD={
+//     name1:'arjun'
+// }
+
+// aD.name1='ada'
+
+let a1={
+    a:10,
+    b:20
 }
+
+
+
+let a2={
+    a:90,
+    c:60,
+    d:20
+}
+
+let a3=a1
+a3.a=500
+console.log(a3);
+console.log(a1);
+
+
+let a4={...a2}
+a2.a=123
+console.log(a4);
+console.log(a2);
 

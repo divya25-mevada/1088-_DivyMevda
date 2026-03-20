@@ -1,22 +1,29 @@
-let name='Suresh'
-let age =12
-let purchaseamount=10000
-let discount=0;
-let fianlamont;
+//Assignment 1
+let u = "di"
+let a = 37
+let pamt = 1000
+let d = 0
 
-if(age<18){
-    discount=discount+10
+if (a < 18) {
+    d = d + 10
 }
-else if(age>=60){
-    discount=discount+20
+else if (a >= 60) {
+    d = d + 20
 }
-if (purchaseamount>500) {
-    discount=discount+5
-}
-fianlamont=purchaseamount-(purchaseamount*discount/100)
 
-console.log(`Hi ${name}! You received a total discount of ${discount}%. Final amount: ₹${fianlamont}`);
+if (pamt > 5000 && (a < 18 || a >= 60)) {
+    d = d + 5
+}
+else if (pamt > 5000) {
+    d = d + 5
+}
 
+let fAmt = pamt - ((pamt * d) / 100)
+
+console.log(d)
+console.log(fAmt)
+
+console.log(`Hi ${u}! You received a total discount of ${d}%. Final Amount: ₹${fAmt}`)
 
 
 // assignmnet 2
@@ -84,23 +91,6 @@ else {
     console.log('You are  not eligible for free delivery!');   
 }
 
-// let marks = 82;
-
-if (marks < 0 || marks > 100) {
-    console.log("Invalid marks entered.");
-}
-else if (marks >= 90) {
-    console.log("Your grade is a.");
-}
-else if (marks >= 75) {
-    console.log("Your grade is b.");
-}
-else if (marks >= 50) {
-    console.log("Your grade is C.");
-}
-else {
-    console.log("Fail");
-}  
 
 // assignmnet 5
 
