@@ -204,27 +204,32 @@
 
 // aD.name1='ada'
 
-let a1={
-    a:10,
-    b:20
-}
+// let a1={
+//     a:10,
+//     b:20
+// }
 
 
 
-let a2={
-    a:90,
-    c:60,
-    d:20
-}
+// let a2={
+//     a:90,
+//     c:60,
+//     d:20
+// }
 
-let a3=a1
-a3.a=500
-console.log(a3);
-console.log(a1);
+// let a3=a1
+// a3.a=500
+// console.log(a3);
+// console.log(a1);
 
 
-let a4={...a2}
-a2.a=123
-console.log(a4);
-console.log(a2);
+// let a4={...a2}
+// a2.a=123
+// console.log(a4);
+// console.log(a2);
 
+//Assignment 1
+const arr = [1, 2, 3, 4, 5];
+const [first, ...rest] = arr;
+
+console.log(first);
